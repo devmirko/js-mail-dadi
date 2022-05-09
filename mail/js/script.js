@@ -21,8 +21,12 @@ myButton.addEventListener("click",
         let emailUser = myInput.value;
         for (let i = 0; i < email.length; i++) {
             if (email[i] === emailUser) {
-                console.log("sei entrato")
-                myOutput.innerHTML = "benvenuto nel nostro sito"
+                console.log("sei entrato");
+                myOutput.innerHTML = '<h2>benvenuto nel nostro sito</h2>'
+               
+            } else {
+                
+               
             }
         }
     }
