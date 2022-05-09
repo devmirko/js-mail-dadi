@@ -14,7 +14,7 @@ myButton.addEventListener("click",
 
         let num_1=Math.round(Math.random()*5+1);
 
-        document.getElementById("numero_1").innerHTML ="Tu hai ottenuto " + num_1 + ", ";
+        document.getElementById("numero_2").innerHTML ="Tu hai ottenuto " + num_1 + ", ";
         let totale1=num_1;
         document.getElementById("totale1").innerHTML =" e hai totalizzato " + totale1 + " punti";
 
